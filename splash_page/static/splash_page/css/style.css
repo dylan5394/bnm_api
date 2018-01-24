@@ -1,0 +1,48 @@
+body {
+    padding-top: 5vh;
+}
+
+.row-margin-top {
+    margin-top: 10vh;
+}
+
+.row-margin-bottom {
+    margin-bottom: 5vh;
+}
+
+.main-text {
+    font-family: "Avenir Next" !important;
+    font-size: 38pt;
+    line-height: 45pt !important;
+}
+
+.sub-text {
+    font-family: "Avenir Next" !important;
+    font-size: 16pt;
+}
+
+.submit-button {
+    background-color: gray;
+    color: white;
+}
+
+
+@media only screen
+    and (max-device-width : 736px)
+    and (orientation : portrait)
+{
+    .row-margin-top {
+        margin-top: 2vh;
+    }
+
+    .main-text {
+        font-family: "Avenir Next" !important;
+        font-size: 34pt;
+        line-height: 41pt !important;
+    }
+
+    .sub-text {
+        font-family: "Avenir Next" !important;
+        font-size: 12pt;
+    }
+}

@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>brick & mortr</title>
+    <link href="{% static 'splash_page/css/style.css' %}?updated={% now "u" %}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{% static 'splash_page/images/favicon.ico' %}?updated={% now "u" %}"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body class="sub-text">
+<div class="container">
+    <!-- Branding -->
+    <div class="row">
+        <div class="col-sm-12">
+{#            <div class="row text-center">#}
+{#                <img src="{% static 'splash_page/images/logo-large.png' %}" style="width: 70%;">#}
+{#            </div>#}
+{#            <div class="row text-center" style="margin-top: 4vh;">#}
+{#                <img src="{% static 'splash_page/images/app-image.png' %}" style="width: 20%;">#}
+{#            </div>#}
+
+            <div class="row text-center">
+                <img src="{% static 'splash_page/images/logo-large.png' %}" style="width: 30%;">
+            </div>
+        </div>
+    </div>
+    <!-- Mission -->
+    <div class="row" style="margin-top: 6vh;">
+        <div class="col-sm-12">
+            <p>Our mission is to streamline the retail shopping experience. We set out to connect the speed of technology with the immediacy of brick-and-mortar retail. For us, traveling around town looking for clothes is too time-consuming. And finding a shirt online, only to wait 5-7 days before it comes in the mail, grows tiresome. We have created a platform that allows users to browse the inventory of local retailers that have registered with our site. If the user likes an item, he can reserve it from the app and pick it up at the store that very day – NO MORE WAIT TIME. Retailers get more exposure for their products and customers get a refined clothing selection catered to their style.</p>
+        </div>
+    </div>
+    <!-- Team -->
+    <div class="row" style="margin-top: 6vh;">
+        <div class="col-sm-4">
+             <div class="thumbnail">
+                <img src="{% static 'splash_page/images/joe_thumb.jpg' %}" style="width: 200px; height: 200px;">
+             </div>
+            <div class="caption">
+                <h3>Joe Fojtasek</h3>
+                <p>Founder and CEO</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="{% static 'splash_page/images/dylan_thumb.jpg' %}" style="width: 200px; height: 200px;">
+             </div>
+            <div class="caption">
+                <h3>Dylan Davis</h3>
+                <p>Technical Cofounder</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="{% static 'splash_page/images/matt_thumb.jpg' %}" style="width: 200px; height: 200px;">
+             </div>
+            <div class="caption">
+                <h3>Matt Chung</h3>
+                <p>Lead Front End Developer</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div class="row" style="margin-top: 4vh;">
+        <div class="col-sm-12 text-center">
+            For more information contact <a href="mailto:joe@brickandmortr.com">joe@brickandmortr.com</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
